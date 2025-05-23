@@ -12,16 +12,7 @@ const FROM = process.env.FROM_NUMBER;
 const MESSAGE_URL = process.env.MESSAGE_URL; // Exotel Applet URL
 
 const numbers = [
-  "91XXXXXXXX01",
-  "91XXXXXXXX02",
-  "91XXXXXXXX03",
-  "91XXXXXXXX04",
-  "91XXXXXXXX05",
-  "91XXXXXXXX06",
-  "91XXXXXXXX07",
-  "91XXXXXXXX08",
-  "91XXXXXXXX09",
-  "91XXXXXXXX10"
+  "918655464868"
 ];
 
 app.post("/start-campaign", async (req, res) => {
